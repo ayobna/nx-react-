@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ayoub-comp/data": ["libs/data/src/index.ts"],
+      "@ayoub-comp/data-access": ["libs/data-access/src/index.ts"],
+      "@ayoub-comp/dataaccess": ["libs/dataaccess/src/index.ts"],
+      "@ayoub-comp/people": ["libs/people/src/index.ts"],
+      "@ayoub-comp/person": ["libs/person/src/index.ts"],
+      "@ayoub-comp/personv": ["libs/personv/src/index.ts"],
+      "@ayoub-comp/upload-file": ["libs/upload-file/src/index.ts"],
+      "@ayoub-comp/upload-img": ["libs/upload-img/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
